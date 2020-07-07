@@ -1,7 +1,7 @@
-FROM hashicorp/terraform:0.12.23
+FROM hashicorp/terraform:0.12.28
 LABEL MAINTAINER="Stuart Auld <stuart.auld@viostream.com>"
 
-ENV SNOWFLAKE_PROVIDER_VERSION=0.10.0
+ENV SNOWFLAKE_PROVIDER_VERSION=0.13.2
 
 RUN \
     mkdir -p /root/.terraform.d/plugins/ \
