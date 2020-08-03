@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:0.12.28
+FROM hashicorp/terraform:0.12.29
 LABEL MAINTAINER="Stuart Auld <stuart.auld@viostream.com>"
 
 ENV SNOWFLAKE_PROVIDER_VERSION=0.13.2
