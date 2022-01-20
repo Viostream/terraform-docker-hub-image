@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:1.0.2
+FROM hashicorp/terraform:1.1.3
 
 LABEL MAINTAINER="Stuart Auld <stuart.auld@viostream.com>"
 
